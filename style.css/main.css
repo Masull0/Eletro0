@@ -1,0 +1,210 @@
+
+/*-- container moveis circulares------*/
+.conteiner1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.container-own {
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+  max-width: 100%;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.container-own:hover img {
+  transform: scale(1.1);
+}
+@media (max-width: 900px) {
+  .container-own {
+    display: none;
+  }
+}
+.own-img {
+  border: 5px solid rgb(255, 255, 0);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+.link-own {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* -------- carrossel --------------- */
+.carrosssel {
+  padding: 2rem 0px 6rem 0px;
+}
+.carousel-Slide {
+  width: 100%;
+  text-align: center;
+}
+.img-curassel {
+  max-width: 100%;
+  height: 55vh;
+  width: 50vw;
+}
+/* -----------ofertas---------------*/
+.todo {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/festas-juninas-de-sao-joao-brasil-renderizacao-3d-realista-para-campanha_649393-10.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+}
+.ofertas {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5rem;
+  width: 70%;
+  font-weight: bold;
+  color: #111;
+}
+.card-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.card-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container-meio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: space-around;
+  padding: 4rem;
+  padding-top: 1rem;
+}
+.card-img {
+  height: 40%;
+}
+.card {
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  display: flex;
+  height: 15vh;
+  flex-wrap: wrap;
+}
+.card-boody {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  font-weight: bold;
+  height: 18vh;
+  text-transform: uppercase;
+}
+/* ----------sobre nós---------- */
+#sobre-nos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sobre-conteiner {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-right: 120px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.sobre-conteiner1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  margin: 120px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.paragrafo {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.sobre-titulo {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 2rem;
+  color: #333;
+}
+.sobre-subtitulo {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.lista-ul {
+  color: #555;
+  text-align: center;
+  align-items: center;
+}
+.lista-li {
+  list-style-type: none;
+  padding: 0;
+}
+.lista-li {
+  margin-bottom: 10px;
+}
+/* ----------clientes----------------- */
+.clientes {
+  padding: 3rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.hi {
+  color: #333;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.name {
+  font-weight: bold;
+  color: #007bff;
+}
+.stars {
+  color: #ffd700;
+}
+.text {
+  margin-top: 10px;
+  color: #555;
+}

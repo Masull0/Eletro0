@@ -1,0 +1,41 @@
+/* --------header------- */
+@media(max-width: 1200px){
+  body{
+    max-width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .pagamentos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .icons-pagamentos{
+    width: 40px;
+    padding: .5rem;
+
+  }
+}
+/* ------botão de "busca"-------- */
+
+@media (max-width: 350px){
+  .busca{
+    display: none;
+  }
+}
+/* ----inicio do DROPDOWN----- */
+@media (max-width: 350px){
+  .header-container{
+    display: none;
+  }
+}
+/* -------ofertas-------- */
+@media(min-width: 1200px){
+  .container-meio{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+  }
+}
+
+
